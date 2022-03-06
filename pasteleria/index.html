@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One pie</title>
+</head>
+<body>
+    <img src="pasteleria.png" alt="One pie" width="200px">
+    <h1>Bienvenidos piratas!</h1>
+
+    <h2>Menu</h2>
+    <img src="ferrero.jpg" alt="ferrero" width="100px"> 
+    <p>pastel gomu gomu (pastel de nutella con ferrero)............................$680.-</p>
+    <img src="zanahoria.jpg" alt="zanahoria" width="100px">
+    <p>pastel mera mera (pastel de zanahoria)......................................$555.-</p>
+    <img src="chocolate.jpg" alt="chocolate" width="100px" >
+    <p>pastel ope  ope  (pastel de chocolate)......................................$555.-</p>
+    <img src="fresas.jpg" alt="fresas" width="100px">
+    <p>pastel ito  ito  (pastel de fresas con crema)...............................$660.-</p>
+    <img src="cajeta.jpg" alt="cajeta" width="100px">
+    <p>pastel yomi yomi (pastel 3 leches de cajeta)................................$555.-</p>
+    <img src="conejo.jpg" alt="conejo" width="100px" >
+    <p>pastel bara bara (pastel de conejo turin)...................................$660.-</p>
+    <img src="limon.jpg" alt="limon" width="100px">
+    <p>pastel awa  awa  (pastel de limon)..........................................$555.-</p>
+    <img src="chocolatef.jpg" alt="chocolatef" width="100px">
+    <p>pastel ushi ushi (pastel de fresas con chocolate)...........................$660.-</p>
+    <img src="naranja.jpg" alt="naranja" width="100px">
+    <p>pastel yami yami (pastel de naranja con chocolate)..........................$555.-</p>
+    <img src="mostachon.jpg" alt="mostachon" width="100px">
+    <p>pastel hana hana (mostachon de frambuesas)..................................$660.-</p>
+    <img src="way.jpg" alt="way" width="100px">
+    <p>pastel kage kage (pastel de milky way)......................................$555.-</p>
+    <img src="frambuesa.jpg" alt="frambuesa" width="100px">
+    <p>pastel baku baku (paste cheesecake de frambuesa)............................$620.-</p>
+    
+    <hr>
+
+    <h2>Adornos</h2>
+    <img src="fruta del diablo.jpg" alt="frutadeldiablo" width="100px">
+    <p>fruta del diablo........................................pastel+$300.-</p>
+    <img src="adorno.jpg" alt="adorno" width="100px">
+    <p>adorno de betun cualquier figura........................pastel+$150.-</p>
+    <img src="cofre.jpg" alt="cofre" width="100px">
+    <p>pastel 3D cualquier figura..............................pastel+$400.-</p>
+    <img src="boda.jpg" alt="boda" width="100px">
+    <p>pastel a granel....................................2 kilos por $500.-</p>
+    
+    <hr>
+
+    <h2>Pedidos...</h2>
+    <form action="/accion.js" id="nombre" method="post">
+        <label for="nombre">Nombre(s): </label>
+        <input type="text" id="nombre" name="nombre(s)"><br><br>
+    </form>
+    <form action="/accion.js" id="Apellidos" method="post">
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" id="Apellidos" name="Apellidos"><br><br>
+    </form>
+    <form action="/accion.js" id="correo" method="post"
+        <label for="correo1">Correo:</label><br>
+        <input type="email" id="correo1" name="correo1"><br><br>
+    </form>
+    <form action="/accion.js" id="numero" method="post"
+        <label for="numero1">Numero:</label><br>
+        <input type="number" id="numero1" name="numero1"><br><br>
+    </form>
+    <form action="/accion.js" id="descripcion" method="post">
+        <label for="nombre">descripcion: </label>
+        <input type="text" id="descripcion" name="descripcion"><br><br>
+    </form>
+    <form>  
+        <label for="pastel">Elige tu pastel favorito</label><br>
+        <input list="pastel">
+        <datalist id="pastel">
+            <option value="gomu-gomu(nutella con ferrero)">
+            <option value="mera-mera(zanahoria)">
+            <option value="ope-ope(chocolate)">
+            <option value="ito-ito(fresas con crema)">
+            <option value="yomi-yomi(pastel de tres leches con cajeta)">
+            <option value="bara-bara(conejo turin)">
+            <option value="awa-awa(limon)">
+            <option value="ushi-ushi(chocolate con fresas)">
+            <option value="yami-yami(naranja con chocolate)">
+            <option value="hana-hana(mostachon de frambuesa)">
+            <option value="kage-kage(milky way)">
+            <option value="baku-baku(cheesecake de frambuesa)">
+        </datalist>
+    </form> 
+    <br><br>
+    <form>  
+        <label for="decorado">Elige tu decorado favorito</label><br>
+        <input list="decorado">
+        <datalist id="decorado">
+            <option value="fruta del diablo">
+            <option value="betun">
+            <option value="pastel 3D">
+        <datalist/>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>          
+    <br><br>
+
+</body>
+</html>
